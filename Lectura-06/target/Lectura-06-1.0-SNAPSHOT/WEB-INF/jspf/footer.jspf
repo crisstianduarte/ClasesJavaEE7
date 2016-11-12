@@ -1,0 +1,5 @@
+<%-- any content can be specified here e.g.: --%>
+<div style="height: 8vh;width:100%;border-top:1px solid ;position: fixed;bottom: 0;left: 0;background-color: lightgrey;">
+    <center><h4>© INTECAP 2016</h4></center>
+</div>
+

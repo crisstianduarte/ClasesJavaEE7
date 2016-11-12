@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : tags
+    Created on : 12/11/2016, 10:53:04 AM
+    Author     : INTECAP1
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8" import="java.util.Date"/>
+    <!-- any content can be specified here, e.g.: -->
+    <jsp:element name="text">
+        <jsp:attribute name="lang">EN</jsp:attribute>
+        <jsp:body>Hello World!</jsp:body><br/>
+    </jsp:element>
+
+        
+        
+        <jsp:declaration>
+            Date fecha =  new Date();
+        </jsp:declaration>
+        <jsp:expression>
+            fecha.toString()
+        </jsp:expression>
+        
+</jsp:root>
