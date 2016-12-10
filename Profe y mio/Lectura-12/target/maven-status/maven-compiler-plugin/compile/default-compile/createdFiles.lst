@@ -1,0 +1,9 @@
+co\edu\intecap\lectura12\mb\ClienteMB.class
+co\edu\intecap\lectura12\ejb\UsuarioEJBLocal.class
+co\edu\intecap\lectura12\jpa\Cuenta.class
+co\edu\intecap\lectura12\jpa\Cliente_.class
+co\edu\intecap\lectura12\jpa\Cuenta_.class
+co\edu\intecap\lectura12\ejb\UsuarioEJB.class
+co\edu\intecap\lectura12\jpa\Cliente.class
+co\edu\intecap\lectura12\jpa\Movimiento.class
+co\edu\intecap\lectura12\jpa\Movimiento_.class
