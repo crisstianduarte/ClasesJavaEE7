@@ -1,0 +1,55 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package co.edu.intecap.lecture11.mb;
+
+import co.edu.intecap.lecture11.ejb.HelloEJBLocal;
+import javax.ejb.EJB;
+import javax.inject.Named;
+import javax.enterprise.context.RequestScoped;
+
+/**
+ *
+ * @author Cesar
+ */
+@Named(value = "helloBean")
+@RequestScoped
+public class HelloBean {
+
+    @EJB
+    private HelloEJBLocal helloEJB;
+    
+    private String name;
+    
+    private String helloName;
+    
+    
+
+    /**
+     * Creates a new instance of HelloBean
+     */
+    public HelloBean() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHelloName() {
+        this.helloName = helloEJB.hello(this.name);
+        return helloName;
+    }
+
+    public void setHelloName(String helloName) {
+        this.helloName = helloName;
+    }
+    
+    
+    
+}

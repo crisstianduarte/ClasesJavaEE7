@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09FBF810-68D0-9D76-0602-801A42CAB9DB" name="CUENTA">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>F48E7046-4002-8F68-7B97-2DBCDF3D492C</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DF547D6D-F64E-5162-8DDB-78F743F246C2">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>7D107214-70F0-BFD9-BFA2-55144B881062</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDO" id="BB00E9CE-4BF1-7F7D-B998-D98A0DF19A92">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>B18FB942-0763-9A5A-D57D-49C1FFAE8A0D</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,19,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_APERTURA" id="D149186C-B3F6-24B3-2FF7-E083BB6DD14D">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>54DEB76F-5541-A5D9-D512-3782AB941848</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_ID" id="E13A4603-E574-4396-89CF-8796E210AB3B">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>F8769768-AD8C-FD93-DE54-27B4DBB7CD63</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8697549C-9C58-07EB-A201-D7FB9A8D3037" referredColumn="F2A196A3-DA38-4B89-8098-88572A8AECFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF372326-7E06-0EA4-DB53-4B92D4D29D80" name="CUENTA_PK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>5B6ECBFC-30DE-0074-90EE-77C49C8B6F57</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF547D6D-F64E-5162-8DDB-78F743F246C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46B8F705-08B6-4CF8-3211-9A8E39CB60D8" name="CUENTA_CLIENTE_FK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>CBD03468-BB82-CB07-6BEC-63FD048FFC10</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E13A4603-E574-4396-89CF-8796E210AB3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

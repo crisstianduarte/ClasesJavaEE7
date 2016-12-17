@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CUENTA_CLIENTE" directorySegmentName="seg_0" id="CBD03468-BB82-CB07-6BEC-63FD048FFC10">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:16:07 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<sourcePk>6F440047-C28A-5CFC-FF3E-77EB792F87CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>52AF5471-0F3B-8A08-F165-8892FF87A041</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F48E7046-4002-8F68-7B97-2DBCDF3D492C</targetEntity>
+<transferable>true</transferable>
+</Relation>

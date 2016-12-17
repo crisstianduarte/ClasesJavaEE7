@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CDA8021-36E4-76B6-2935-19BB5154928E" name="MOVIMIENTO">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>80A7EFAD-B04E-21E5-682F-C943B3575BCA</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="20ACBBBC-DBFF-935F-2C73-DE661D394A98">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>3B178B99-BF04-303B-B4DF-2A98E23CFCDB</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="5B6F6FE0-0981-B226-4194-3CD88C70AA57">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>8370BF01-2F7C-F7DC-0B1D-01A85D9BE231</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,19,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_MOVIMIENTO" id="B0DAC22D-6D6F-4066-1736-F3C497F80B01">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>00482C77-F4B6-E5B1-643F-76500B64CBC5</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MOVIMIENTO" id="A8CA53C3-41EF-8743-234B-D15AC305D373">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>5233C12D-2DCB-4D11-4461-6A827279178E</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA_ID" id="103277FC-3E6C-0768-D6CD-17DD328FE2EE">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>25F0F648-54BC-FE52-D67E-C56DC531A195</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="318E8254-CD01-29B4-004F-217BEA3EDF85" referredColumn="DF547D6D-F64E-5162-8DDB-78F743F246C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2DABC2F-4D28-FB69-F08F-A4EBE7F7FDCF" name="MOVIMIENTO_PK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>D0A4F725-9666-138D-464C-696E80D13F04</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20ACBBBC-DBFF-935F-2C73-DE661D394A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1054C651-01E2-8D4C-CBAD-2840C66168FF" name="MOVIMIENTO_CUENTA_FK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:20:52 UTC</createdTime>
+<generatorID>5A6D8AAA-2E40-6EFA-6151-6CBB3A22DEC5</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="103277FC-3E6C-0768-D6CD-17DD328FE2EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

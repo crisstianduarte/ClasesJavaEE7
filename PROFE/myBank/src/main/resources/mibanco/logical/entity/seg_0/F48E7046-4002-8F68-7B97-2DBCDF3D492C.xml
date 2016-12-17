@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F48E7046-4002-8F68-7B97-2DBCDF3D492C" name="CUENTA">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:13:56 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="7D107214-70F0-BFD9-BFA2-55144B881062">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:14:02 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALDO" id="B18FB942-0763-9A5A-D57D-49C1FFAE8A0D">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:14:19 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,19,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_APERTURA" id="54DEB76F-5541-A5D9-D512-3782AB941848">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:14:57 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F8769768-AD8C-FD93-DE54-27B4DBB7CD63">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:16:07 UTC</createdTime>
+<generatorID>CBD03468-BB82-CB07-6BEC-63FD048FFC10</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<referedAttribute>16079E52-B617-DD15-5A8D-81FD8B2F743E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B6ECBFC-30DE-0074-90EE-77C49C8B6F57" name="CUENTA PK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:14:18 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D107214-70F0-BFD9-BFA2-55144B881062</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

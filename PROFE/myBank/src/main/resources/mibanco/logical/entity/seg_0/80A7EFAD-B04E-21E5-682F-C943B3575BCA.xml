@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80A7EFAD-B04E-21E5-682F-C943B3575BCA" name="MOVIMIENTO">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:17:03 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3B178B99-BF04-303B-B4DF-2A98E23CFCDB">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:17:15 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="8370BF01-2F7C-F7DC-0B1D-01A85D9BE231">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:17:35 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,19,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_MOVIMIENTO" id="00482C77-F4B6-E5B1-643F-76500B64CBC5">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:18:14 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_MOVIMIENTO" id="5233C12D-2DCB-4D11-4461-6A827279178E">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:18:48 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="25F0F648-54BC-FE52-D67E-C56DC531A195">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:19:47 UTC</createdTime>
+<generatorID>5A6D8AAA-2E40-6EFA-6151-6CBB3A22DEC5</generatorID>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<referedAttribute>7D107214-70F0-BFD9-BFA2-55144B881062</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0A4F725-9666-138D-464C-696E80D13F04" name="MOVIMIENTO PK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:17:34 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B178B99-BF04-303B-B4DF-2A98E23CFCDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

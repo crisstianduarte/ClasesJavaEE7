@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MOVIMIENTO_CUENTA" directorySegmentName="seg_0" id="5A6D8AAA-2E40-6EFA-6151-6CBB3A22DEC5">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:19:47 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<sourcePk>5B6ECBFC-30DE-0074-90EE-77C49C8B6F57</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F48E7046-4002-8F68-7B97-2DBCDF3D492C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80A7EFAD-B04E-21E5-682F-C943B3575BCA</targetEntity>
+<transferable>true</transferable>
+</Relation>

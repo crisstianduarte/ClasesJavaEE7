@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="52AF5471-0F3B-8A08-F165-8892FF87A041" name="CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="53791098-C401-B64F-4817-510074490EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F48E7046-4002-8F68-7B97-2DBCDF3D492C" name="CUENTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="53791098-C401-B64F-4817-510074490EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="80A7EFAD-B04E-21E5-682F-C943B3575BCA" name="MOVIMIENTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="53791098-C401-B64F-4817-510074490EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="CBD03468-BB82-CB07-6BEC-63FD048FFC10" name="CUENTA_CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="53791098-C401-B64F-4817-510074490EC5" propertySourceId="52AF5471-0F3B-8A08-F165-8892FF87A041" propertyTargetId="F48E7046-4002-8F68-7B97-2DBCDF3D492C"/>
+   <object objectType="Relation" objectID="5A6D8AAA-2E40-6EFA-6151-6CBB3A22DEC5" name="MOVIMIENTO_CUENTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="53791098-C401-B64F-4817-510074490EC5" propertySourceId="F48E7046-4002-8F68-7B97-2DBCDF3D492C" propertyTargetId="80A7EFAD-B04E-21E5-682F-C943B3575BCA"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52AF5471-0F3B-8A08-F165-8892FF87A041" name="CLIENTE">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:09:33 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="16079E52-B617-DD15-5A8D-81FD8B2F743E">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:10:09 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="0129044A-840A-8E2E-C4A7-C70A1A83F7A7">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:11:09 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_ELECTRONIO" id="823E4823-0A17-8C84-5804-25C6CF388E6E">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:11:53 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="9ADEF408-A541-B519-2B08-62D7AB9942DF">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:12:24 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CELULAR" id="D09CE4CB-4E56-2EE2-5F29-433044B967BB">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:12:47 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="A3AE88FF-59BA-0310-3B22-C31ECBE1B58E">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-14 01:01:35 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F440047-C28A-5CFC-FF3E-77EB792F87CB" name="CLIENTE PK">
+<createdBy>Cesar</createdBy>
+<createdTime>2016-12-03 16:11:05 UTC</createdTime>
+<ownerDesignName>mibanco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5D4C3E14-7B50-362B-95C9-872CA7579C90" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16079E52-B617-DD15-5A8D-81FD8B2F743E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
